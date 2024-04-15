@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <style name="SudThemeGlifV3" parent="SudBaseThemeGlifV3">
+        <item name="android:navigationBarColor">@color/sud_glif_v3_nav_bar_color_dark</item>
+        <item name="android:navigationBarDividerColor" ns1:ignore="NewApi">@color/sud_glif_v3_nav_bar_divider_color_dark</item>
+        <item name="android:windowLightNavigationBar" ns1:ignore="NewApi">false</item>
+        <item name="sucLightSystemNavBar" ns1:ignore="NewApi">?android:attr/windowLightNavigationBar</item>
+        <item name="sucSystemNavBarDividerColor" ns1:ignore="NewApi">?android:attr/navigationBarDividerColor</item>
+    </style>
+    <style name="SudThemeGlifV3.Light" parent="SudBaseThemeGlifV3.Light">
+        <item name="android:navigationBarColor">@color/sud_glif_v3_nav_bar_color_light</item>
+        
+        <item name="android:navigationBarDividerColor" ns1:ignore="NewApi">@color/sud_glif_v3_nav_bar_divider_color_light</item>
+        
+        <item name="android:windowLightNavigationBar" ns1:ignore="NewApi">true</item>
+        <item name="sucLightSystemNavBar" ns1:ignore="NewApi">?android:attr/windowLightNavigationBar</item>
+        <item name="sucSystemNavBarDividerColor" ns1:ignore="NewApi">?android:attr/navigationBarDividerColor</item>
+    </style>
+</resources>

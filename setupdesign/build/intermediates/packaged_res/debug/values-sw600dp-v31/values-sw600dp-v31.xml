@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sud_glif_button_margin_end">92dp</dimen>
+    <dimen name="sud_glif_button_margin_start">80dp</dimen>
+    <dimen name="sud_glif_content_padding_top">0dp</dimen>
+    <dimen name="sud_glif_footer_bar_min_height">72dp</dimen>
+    <dimen name="sud_glif_footer_padding_end">92dp</dimen>
+    <dimen name="sud_glif_footer_padding_start">80dp</dimen>
+    <dimen name="sud_glif_margin_end">96dp</dimen>
+    <dimen name="sud_glif_margin_start">96dp</dimen>
+    <dimen name="sud_header_title_size">24sp</dimen>
+    <dimen name="sud_items_glif_icon_divider_inset">144dp</dimen>
+    <dimen name="sud_items_glif_text_divider_inset">96dp</dimen>
+    <item name="sud_glif_preference_template" type="layout">@layout/sud_glif_preference_template_card</item>
+</resources>

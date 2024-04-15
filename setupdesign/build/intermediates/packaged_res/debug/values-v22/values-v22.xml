@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SudAlertDialogTheme" parent="android:Theme.DeviceDefault.Dialog.Alert">
+        <item name="android:colorBackground">@color/sud_glif_v3_dialog_background_color_dark</item>
+    </style>
+    <style name="SudAlertDialogTheme.Light" parent="android:Theme.DeviceDefault.Light.Dialog.Alert"/>
+    <style name="SudMaterialYouAlertDialogTheme" parent="SudAlertDialogTheme">
+        <item name="android:windowTitleStyle">@style/SudMaterialYouAlertDialogTitleStyle</item>
+    </style>
+    <style name="SudMaterialYouAlertDialogTheme.Light" parent="SudAlertDialogTheme.Light">
+        <item name="android:windowTitleStyle">@style/SudMaterialYouAlertDialogTitleStyle</item>
+    </style>
+</resources>

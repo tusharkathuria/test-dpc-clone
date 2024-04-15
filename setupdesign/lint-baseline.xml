@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint 4.1.0" client="cli" variant="all" version="4.1.0">
+
+    <issue
+        id="NewApi"
+        message="`@android:interpolator/linear_out_slow_in` requires API level 21 (current min is 14)"
+        errorLine1='        android:interpolator="@android:interpolator/linear_out_slow_in"'
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="external/setupdesign/main/res/anim/sud_pre_p_activity_close_enter.xml"
+            line="21"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        message="`@android:interpolator/fast_out_slow_in` requires API level 21 (current min is 14)"
+        errorLine1='        android:interpolator="@android:interpolator/fast_out_slow_in"'
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="external/setupdesign/main/res/anim/sud_pre_p_activity_open_exit.xml"
+            line="22"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        message="`android:datePickerDialogTheme` requires API level 21 (current min is 14)">
+        <location
+            file="external/setupdesign/main/res/values/styles.xml"
+            line="371"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        message="`android:datePickerDialogTheme` requires API level 21 (current min is 14)">
+        <location
+            file="external/setupdesign/main/res/values/styles.xml"
+            line="385"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        message="`android:stateListAnimator` requires API level 21 (current min is 14)">
+        <location
+            file="external/setupdesign/main/res/values/styles.xml"
+            line="718"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        message="`android:timePickerDialogTheme` requires API level 21 (current min is 14)">
+        <location
+            file="external/setupdesign/main/res/values/styles.xml"
+            line="372"/>
+    </issue>
+
+    <issue
+        id="NewApi"
+        message="`android:timePickerDialogTheme` requires API level 21 (current min is 14)">
+        <location
+            file="external/setupdesign/main/res/values/styles.xml"
+            line="386"/>
+    </issue>
+
+</issues>

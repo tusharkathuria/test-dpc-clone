@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/tushar.kathuria/Personal/Android/Projects/test-dpc-clone/setupcompat/AndroidManifest.xml:18:1-21:12
+INJECTED from /Users/tushar.kathuria/Personal/Android/Projects/test-dpc-clone/setupcompat/AndroidManifest.xml:18:1-21:12
+INJECTED from /Users/tushar.kathuria/Personal/Android/Projects/test-dpc-clone/setupcompat/AndroidManifest.xml:18:1-21:12
+	package
+		ADDED from /Users/tushar.kathuria/Personal/Android/Projects/test-dpc-clone/setupcompat/AndroidManifest.xml:18:11-51
+		INJECTED from /Users/tushar.kathuria/Personal/Android/Projects/test-dpc-clone/setupcompat/AndroidManifest.xml
+		INJECTED from /Users/tushar.kathuria/Personal/Android/Projects/test-dpc-clone/setupcompat/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/tushar.kathuria/Personal/Android/Projects/test-dpc-clone/setupcompat/AndroidManifest.xml:18:1-21:12
+uses-sdk
+ADDED from /Users/tushar.kathuria/Personal/Android/Projects/test-dpc-clone/setupcompat/AndroidManifest.xml:20:3-15
+INJECTED from /Users/tushar.kathuria/Personal/Android/Projects/test-dpc-clone/setupcompat/AndroidManifest.xml:20:3-15
+INJECTED from /Users/tushar.kathuria/Personal/Android/Projects/test-dpc-clone/setupcompat/AndroidManifest.xml:20:3-15
+INJECTED from /Users/tushar.kathuria/Personal/Android/Projects/test-dpc-clone/setupcompat/AndroidManifest.xml:20:3-15
+INJECTED from /Users/tushar.kathuria/Personal/Android/Projects/test-dpc-clone/setupcompat/AndroidManifest.xml:20:3-15
+	android:targetSdkVersion
+		INJECTED from /Users/tushar.kathuria/Personal/Android/Projects/test-dpc-clone/setupcompat/AndroidManifest.xml
+		ADDED from /Users/tushar.kathuria/Personal/Android/Projects/test-dpc-clone/setupcompat/AndroidManifest.xml:20:3-15
+		INJECTED from /Users/tushar.kathuria/Personal/Android/Projects/test-dpc-clone/setupcompat/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/tushar.kathuria/Personal/Android/Projects/test-dpc-clone/setupcompat/AndroidManifest.xml
+		ADDED from /Users/tushar.kathuria/Personal/Android/Projects/test-dpc-clone/setupcompat/AndroidManifest.xml:20:3-15
+		INJECTED from /Users/tushar.kathuria/Personal/Android/Projects/test-dpc-clone/setupcompat/AndroidManifest.xml

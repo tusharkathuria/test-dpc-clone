@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sud_card_title_padding_bottom">0dp</dimen>
+    <dimen name="sud_card_title_padding_end">32dp</dimen>
+    <dimen name="sud_card_title_padding_start">56dp</dimen>
+    <dimen name="sud_card_title_padding_top">24dp</dimen>
+    <dimen name="sud_content_loading_frame_padding_bottom">24dp</dimen>
+    <dimen name="sud_content_loading_frame_padding_end">0dp</dimen>
+    <dimen name="sud_content_loading_frame_padding_start">0dp</dimen>
+    <dimen name="sud_content_loading_frame_padding_top">0dp</dimen>
+    <dimen name="sud_decor_padding_top">0dp</dimen>
+    <dimen name="sud_glif_button_min_height">36dp</dimen>
+    <dimen name="sud_glif_card_height">560dp</dimen>
+    <dimen name="sud_glif_card_width">672dp</dimen>
+    <dimen name="sud_glif_content_padding_top_material_you">32dp</dimen>
+    <dimen name="sud_glif_footer_bar_min_height">52dp</dimen>
+    <dimen name="sud_glif_footer_bar_min_height_material_you">52dp</dimen>
+    <dimen name="sud_glif_footer_bar_padding_end_material_you">28dp</dimen>
+    <dimen name="sud_glif_footer_bar_padding_start_material_you">16dp</dimen>
+    <dimen name="sud_glif_footer_bar_padding_vertical_material_you">0dp</dimen>
+    <dimen name="sud_glif_footer_padding_vertical">0dp</dimen>
+    <dimen name="sud_glif_margin_end_material_you">32dp</dimen>
+    <dimen name="sud_glif_margin_start_material_you">32dp</dimen>
+    <item format="float" name="sud_illustration_aspect_ratio" type="dimen">0</item>
+    <item name="sud_list_template" type="layout">@layout/sud_list_template_header_collapsed</item>
+    <item name="sud_list_template_short" type="layout">@layout/sud_list_template_header_collapsed</item>
+    <item name="sud_no_scroll_template" type="layout">@layout/sud_no_scroll_template_header_collapsed</item>
+    <item name="sud_no_scroll_template_short" type="layout">@layout/sud_no_scroll_template_header_collapsed</item>
+    <item name="sud_preference_recycler_view" type="layout">@layout/sud_preference_recycler_view_normal</item>
+    <item name="sud_preference_template" type="layout">@layout/sud_no_scroll_template_header_collapsed</item>
+    <item name="sud_recycler_template" type="layout">@layout/sud_recycler_template_header_collapsed</item>
+    <item name="sud_recycler_template_short" type="layout">@layout/sud_recycler_template_header_collapsed</item>
+    <item name="sud_template" type="layout">@layout/sud_template_header_collapsed</item>
+    <item name="sud_template_short" type="layout">@layout/sud_template_header_collapsed</item>
+    <style name="SudCardTitle" parent="SudBaseCardTitle">
+        <item name="android:maxLines">6</item>
+    </style>
+</resources>

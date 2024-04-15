@@ -39,6 +39,7 @@ import android.net.Uri;
 import android.os.Build.VERSION_CODES;
 import android.os.Bundle;
 import android.os.PersistableBundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -115,14 +116,14 @@ public class SetupManagementFragment extends Fragment
             .setText(R.string.next_button_label)
             .setListener(this::onNavigateNext)
             .setButtonType(FooterButton.ButtonType.NEXT)
-//            .setTheme(R.style.SudGlifButton_Primary)
+            .setTheme(com.google.android.setupdesign.R.style.SudGlifButton_Primary)
             .build();
     FooterButton exitButton =
         new FooterButton.Builder(context)
             .setText(R.string.exit)
             .setListener(this::onNavigateBack)
             .setButtonType(FooterButton.ButtonType.OTHER)
-//            .setTheme(R.style.SudGlifButtonBar_Stackable)
+            .setTheme(com.google.android.setupdesign.R.style.SudGlifButtonBar_Stackable)
             .build();
     mixin.setPrimaryButton(nextButton);
     mixin.setSecondaryButton(exitButton);

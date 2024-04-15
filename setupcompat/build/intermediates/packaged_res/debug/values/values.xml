@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <attr format="reference" name="sucLayoutTheme"/>
+    <color name="suc_customization_button_highlight_default">#ff1a73e8</color>
+    <color name="suc_customization_button_highlight_ripple">#1f000000</color>
+    <item name="suc_customization_original_weight" type="id"/>
+    <style name="SucPartnerCustomizationButton.Primary" parent="android:Widget.Material.Button.Colored">
+        
+        <item name="android:buttonStyle">@style/SucPartnerCustomizationButton.Primary</item>
+        <item name="android:theme">@style/SucPartnerCustomizationButton.Primary</item>
+
+        
+        <item name="android:fontFamily" ns1:targetApi="jelly_bean">?attr/sucFooterBarButtonFontFamily</item>
+        <item name="android:paddingLeft">?attr/sucFooterButtonPaddingStart</item>
+        <item name="android:paddingStart" ns1:ignore="NewApi">?attr/sucFooterButtonPaddingStart</item>
+        <item name="android:paddingRight">?attr/sucFooterButtonPaddingEnd</item>
+        <item name="android:paddingEnd" ns1:ignore="NewApi">?attr/sucFooterButtonPaddingEnd</item>
+        <item name="android:textAllCaps">?attr/sucFooterBarButtonAllCaps</item>
+        <item name="android:stateListAnimator" ns1:ignore="NewApi">@null</item>
+
+        
+        <item name="android:buttonCornerRadius" ns1:ignore="NewApi">?attr/sucFooterBarButtonCornerRadius</item>
+    </style>
+    <style name="SucPartnerCustomizationButton.Secondary" parent="android:Widget.Material.Button.Borderless.Colored">
+        
+        <item name="android:buttonStyle">@style/SucPartnerCustomizationButton.Secondary</item>
+        <item name="android:theme">@style/SucPartnerCustomizationButton.Secondary</item>
+
+        
+        <item name="android:fontFamily" ns1:targetApi="jelly_bean">?attr/sucFooterBarButtonFontFamily</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingLeft">?attr/sucFooterButtonPaddingStart</item>
+        <item name="android:paddingStart" ns1:ignore="NewApi">?attr/sucFooterButtonPaddingStart</item>
+        <item name="android:paddingRight">?attr/sucFooterButtonPaddingEnd</item>
+        <item name="android:paddingEnd" ns1:ignore="NewApi">?attr/sucFooterButtonPaddingEnd</item>
+        <item name="android:textAllCaps">?attr/sucFooterBarButtonAllCaps</item>
+
+        
+        <item name="android:buttonCornerRadius" ns1:ignore="NewApi">?attr/sucFooterBarButtonCornerRadius</item>
+        <item name="android:colorControlHighlight" ns1:targetApi="lollipop">@color/suc_customization_button_highlight_ripple</item>
+        <item name="sucFooterBarButtonColorControlHighlight">@color/suc_customization_button_highlight_ripple</item>
+    </style>
+    <style name="SucPartnerCustomizationButtonBar">
+        <item name="android:baselineAligned">false</item>
+        <item name="android:clipChildren">false</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">?attr/sucFooterBarMinHeight</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingTop">?attr/sucFooterBarPaddingVertical</item>
+        <item name="android:paddingBottom">?attr/sucFooterBarPaddingVertical</item>
+        <item name="android:paddingEnd" ns1:ignore="NewApi">?attr/sucFooterBarPaddingEnd</item>
+        <item name="android:paddingLeft">?attr/sucFooterBarPaddingStart</item>
+        <item name="android:paddingRight">?attr/sucFooterBarPaddingEnd</item>
+        <item name="android:paddingStart" ns1:ignore="NewApi">?attr/sucFooterBarPaddingStart</item>
+    </style>
+    <style name="SucPartnerCustomizationButtonBar.Stackable" parent="SucPartnerCustomizationButtonBar">
+        <item name="android:gravity">center</item>
+    </style>
+    <declare-styleable name="SucFooterBarMixin">
+        <attr format="boolean" name="sucFooterBarButtonAllCaps"/>
+        <attr format="boolean" name="sucFooterBarButtonAlignEnd"/>
+        <attr format="dimension" name="sucFooterBarButtonCornerRadius"/>
+        <attr format="string|reference" name="sucFooterBarButtonFontFamily"/>
+        <attr format="dimension" name="sucFooterBarPaddingTop"/>
+        <attr format="dimension" name="sucFooterBarPaddingBottom"/>
+        <attr format="color" name="sucFooterBarPrimaryFooterBackground"/>
+        <attr format="reference" name="sucFooterBarPrimaryFooterButton"/>
+        <attr format="color" name="sucFooterBarSecondaryFooterBackground"/>
+        <attr format="reference" name="sucFooterBarSecondaryFooterButton"/>
+        <attr format="float" name="sucFooterBarButtonHighlightAlpha"/>
+        <attr format="color" name="sucFooterBarButtonColorControlHighlight"/>
+        <attr format="color" name="sucFooterBarButtonColorControlHighlightRipple"/>
+        <attr format="dimension" name="sucFooterBarPaddingVertical"/>
+        <attr format="dimension" name="sucFooterBarPaddingStart"/>
+        <attr format="dimension" name="sucFooterBarPaddingEnd"/>
+        <attr format="dimension" name="sucFooterBarMinHeight"/>
+    </declare-styleable>
+    <declare-styleable name="SucFooterButton">
+        <attr name="android:text"/>
+        <attr name="android:theme"/>
+        
+        <attr name="sucButtonType">
+            <enum name="other" value="0"/>
+            <enum name="add_another" value="1"/>
+            <enum name="cancel" value="2"/>
+            <enum name="clear" value="3"/>
+            <enum name="done" value="4"/>
+            <enum name="next" value="5"/>
+            <enum name="opt_in" value="6"/>
+            <enum name="skip" value="7"/>
+            <enum name="stop" value="8"/>
+        </attr>
+        <attr format="dimension" name="sucFooterButtonPaddingStart"/>
+        <attr format="dimension" name="sucFooterButtonPaddingEnd"/>
+    </declare-styleable>
+    <declare-styleable name="SucHeaderMixin">
+        <attr format="string" localization="suggested" name="sucHeaderText"/>
+        <attr format="reference|color" name="sucHeaderTextColor"/>
+        <attr format="dimension" name="sucGlifHeaderMarginTop"/>
+        <attr format="dimension" name="sucGlifHeaderMarginBottom"/>
+        <attr format="dimension" name="sucGlifIconMarginTop"/>
+        <attr format="dimension" name="sucHeaderContainerMarginBottom"/>
+    </declare-styleable>
+    <declare-styleable name="SucPartnerCustomizationLayout">
+        <attr format="boolean" name="sucLayoutFullscreen"/>
+        
+        <attr format="boolean" name="sucUsePartnerResource"/>
+        <attr format="boolean" name="sucFullDynamicColor"/>
+    </declare-styleable>
+    <declare-styleable name="SucStatusBarMixin">
+        
+        <attr format="color|reference" name="sucStatusBarBackground"/>
+        <attr format="boolean" name="sucLightStatusBar"/>
+    </declare-styleable>
+    <declare-styleable name="SucSystemNavBarMixin">
+        
+        <attr format="color" name="sucSystemNavBarBackgroundColor"/>
+        <attr format="boolean" name="sucLightSystemNavBar"/>
+        
+        <attr format="color" name="sucSystemNavBarDividerColor"/>
+    </declare-styleable>
+    <declare-styleable name="SucTemplateLayout">
+        <attr name="android:layout"/>
+        <attr format="reference" name="sucContainer"/>
+    </declare-styleable>
+</resources>

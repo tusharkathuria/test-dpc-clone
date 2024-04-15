@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="suc_footer_bar_button_align_end">true</bool>
+    <dimen name="sud_glif_land_middle_horizontal_spacing">76dp</dimen>
+</resources>

@@ -17,7 +17,9 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-
+    buildFeatures {
+        aidl true
+    }
 
     buildTypes {
         release {
@@ -36,10 +38,10 @@ android {
 
 dependencies {
 
+    implementation project(':setupcompat')
+    implementation project(':setupdesign')
+
     implementation 'androidx.core:core-ktx:1.8.0'
-    implementation files('libs/setupcompat.aar')
-    implementation files('libs/setupdesign.aar')
-    implementation files('libs/strings.aar')
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
